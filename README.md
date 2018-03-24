@@ -8,7 +8,7 @@ Using [translate-shell](https://github.com/soimort/translate-shell).
 4. notify-send
 
 # Installation
-After installing xbindkeys add these lines to ~/.xbindkeys
+After installing xbindkeys add these lines to ~/.xbindkeys<br />
 _"bash pathTofiles/seltr"_<br />
     _m:0x15 + c:52_<br />
     _Control+Shift+Mod2 + z_
