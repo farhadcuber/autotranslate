@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+WORD=$(xsel -o)
+MEANING=$($DIR/trans -b :fa $(xsel -o | sed "s/[\"'<>]//g"))
+
+notify-send -u critical "$WORD" "$(echo $MEANING | rev)"
+
+if [ $? != 0 ]
+then
+	notify-send -u critical "error"
+else
+	echo "$WORD : $MEANING" >> $DIR/myWords.txt
+fi
+
