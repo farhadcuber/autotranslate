@@ -9,8 +9,8 @@ Using [translate-shell](https://github.com/soimort/translate-shell).
 
 # Installation
 After installing xbindkeys add these lines to ~/.xbindkeys
-_"bash pathTofiles/seltr"_ 
-    _m:0x15 + c:52_ 
+_"bash pathTofiles/seltr"_<br />
+    _m:0x15 + c:52_<br />
     _Control+Shift+Mod2 + z_
   
 
