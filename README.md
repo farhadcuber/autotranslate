@@ -5,7 +5,8 @@ Using [translate-shell](https://github.com/soimort/translate-shell).
 1. xbindkeys
 2. xsel
 3. curl
-4. notify-send
+4. notify-send (for install it on ubuntu $ apt install notify-osd)
+5. gawk
 
 # Installation
 After installing xbindkeys add these lines to ~/.xbindkeys<br />
