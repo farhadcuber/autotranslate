@@ -10,21 +10,27 @@ Using [translate-shell](https://github.com/soimort/translate-shell).
 
 # Installation
 After installing xbindkeys create a .xbindkeysrc file<br />
-    xbindkeys --defaults > ~/.xbindkeysrc
+    `xbindkeys --defaults > ~/.xbindkeysrc`
 
-add append these lines to ~/.xbindkeysrc<br />
+append these lines to ~/.xbindkeysrc<br />
+    ```
     _"bash pathTofiles/seltr"_<br />
     _m:0x15 + c:52_<br />
-    _Control+Shift+Mod2 + z_<br />
+    _Control+Shift+Mod2 + z_
+    ```
 
-for Example in my case:<br />
+for example in my case:<br />
+    ```
     "~/autotranslate/seltr"<br />
     m:0x15 + c:52<br />
-    Control+Shift+Mod2+z<br />
+    Control+Shift+Mod2+z
+    ```
 
-to apply changes enter following commands:
-    `killall -s1 xbindkeys`
-    `xbindkeys -f ~/.xbindkeysrc`
+to apply changes enter following commands:<br />
+    ````
+    killall -s1 xbindkeys<br />
+    xbindkeys -f ~/.xbindkeysrc
+    ```
   
 
 # Usage:
