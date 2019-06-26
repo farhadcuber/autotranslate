@@ -14,21 +14,21 @@ After installing xbindkeys create a .xbindkeysrc file<br />
 
 append these lines to ~/.xbindkeysrc<br />
     ```
-    _"bash pathTofiles/seltr"_<br />
-    _m:0x15 + c:52_<br />
-    _Control+Shift+Mod2 + z_
+    "bash pathTofiles/seltr"
+    m:0x15 + c:52
+    Control+Shift+Mod2+z
     ```
 
 for example in my case:<br />
     ```
-    "~/autotranslate/seltr"<br />
-    m:0x15 + c:52<br />
+    "~/autotranslate/seltr"
+    m:0x15 + c:52
     Control+Shift+Mod2+z
     ```
 
 to apply changes enter following commands:<br />
-    ````
-    killall -s1 xbindkeys<br />
+    ```
+    killall -s1 xbindkeys
     xbindkeys -f ~/.xbindkeysrc
     ```
   
