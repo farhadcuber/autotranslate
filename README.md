@@ -9,12 +9,24 @@ Using [translate-shell](https://github.com/soimort/translate-shell).
 5. gawk
 
 # Installation
-After installing xbindkeys add these lines to ~/.xbindkeys<br />
-_"bash pathTofiles/seltr"_<br />
+After installing xbindkeys create a .xbindkeysrc file<br />
+    xbindkeys --defaults > ~/.xbindkeysrc
+
+add append these lines to ~/.xbindkeysrc<br />
+    _"bash pathTofiles/seltr"_<br />
     _m:0x15 + c:52_<br />
-    _Control+Shift+Mod2 + z_
+    _Control+Shift+Mod2 + z_<br />
+
+for Example in my case:<br />
+    "~/autotranslate/seltr"<br />
+    m:0x15 + c:52<br />
+    Control+Shift+Mod2+z<br />
+
+to apply changes enter following commands:
+    `killall -s1 xbindkeys`
+    `xbindkeys -f ~/.xbindkeysrc`
   
 
 # Usage:
-1. Select the word
-2. Use shortcut Ctrl + Shift + z
+1. Select the word.
+2. Use shortcut Ctrl + Shift + z.
